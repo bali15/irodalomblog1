@@ -3,7 +3,7 @@ import Image from "next/image"
 function Main({posts}) {
 
     return (
-        <div className=" w-[400px] p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600  ">
+        <div className=" w-20 p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600  ">
             <div className="flex p-2 mt-5"> {/* 1.PICTURE */}
                 <h1 className=" text-3xl lg-max-w-8xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
                     Az álmom vált valóra de még a munkám történetének elejébe bele se vágtam, már galibába keveredett e szegény város .
