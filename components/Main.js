@@ -3,9 +3,9 @@ import Image from "next/image"
 function Main({posts}) {
 
     return (
-        <div className="p-5 h-screen bg-gradient-to-b from-white via-yellow-400 to-yellow-600 ">
+        <div className="p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600  ">
             <div className="flex p-2 mt-5"> {/* 1.PICTURE */}
-                <h1 className=" text-4xl max-w-8xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
+                <h1 className=" text-3xl max-w-8xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
                     Az álmom vált valóra de még a munkám történetének elejébe bele se vágtam, már galibába keveredett e szegény város .
                     Királyom Kreón, kinek a fia Haimón volt. Ő Antigoné férje. Neki volt egy testvére Iszméné. 
                     Ott kezdődött a történet, hogy Kreón parancsára Antigoné és Iszméné halott bátyját, Polüneikészt
@@ -14,21 +14,21 @@ function Main({posts}) {
                     Antigoné megharagszik Iszménére és egyedül készül végrehajtani tervét. Itt jövök én a képbe. 
                     Az elbeszélésben, mint karvezető, értesítettem őket, hogy Polüneikész és Eteoklész párbajban megölték egymást.
                     Senkinek sem tetszik az, hogy Kreón megtiltotta, hogy eltemessék Polüdeikészt, de mégsem mernek ellent mondani a királynak.
-                    A galibát azt hozza,
+                   
                     
             
                         </h1>
-                <Image  src="/images/1pic.png" className="border-4 border-white" width={3200} height={320} layout="fixed"/>
+                <Image  src="/images/1pic.png" className="border-4 border-white" width={3000} height={330} layout="fixed"/>
 
                      
             </div>
 
             <div className="flex p-2 "> {/* 2.PICTURE */}
 
-                <Image className="" src="/images/2pic.png"   width={3150} height={320} layout="fixed"/>
+                <Image className="" src="/images/2pic.png"   width={3150} height={350} layout="fixed"/>
 
-                <h1 className=" text-4xl max-w-8xl ml-5 "> 
-                hogy egy őr megtalálja a testet porral beszorva, és ezt elmondja Kreónnak. A királynak elege lesz és 
+                <h1 className=" text-3xl max-w-8xl ml-5 "> 
+                A galibát azt hozza, hogy egy őr megtalálja a testet porral beszorva, és ezt elmondja Kreónnak. A királynak elege lesz és 
                 a vének tanácsa is figyelmezteti őt, hogy halandó nem szegülhet ellen az istenek törvényének,
                 de elvakította Kreónt a bosszú. Nagyon félti a hatalmát ahhoz, hogy saját szavát megmásítsa.
                 Elengedi az őrt, hogy megkeresse a tettest. Hamarosan el is kapják Antigónét, aki büszkén vállalja tettét.
@@ -45,7 +45,7 @@ function Main({posts}) {
 
             <div className="flex p-2"> {/* 3. PICTURE */}
 
-                <h1 className="text-4xl max-w-8xl">
+                <h1 className="text-3xl max-w-8xl">
                 Iszménét pedig a tanácsomra szabadon engedem. Theiresziász, a vak jövendőmondó szintén figyelmezteti a királyt,
                 hogy ez az utolsó lehetősége, hogy helyrehozza eddigi hibáit. Kreón itt is politikai összeesküvést sejt,
                 és nem ismeri be tévedését.  A jós erre közli, hogy Polüneikész halála miatt 
@@ -61,7 +61,7 @@ function Main({posts}) {
 
                 </h1>
 
-                <Image className="" src="/images/3pic.png"   width={3200} height={320} layout="fixed"/>
+                <Image className="" src="/images/3pic.png"   width={3200} height={350} layout="fixed"/>
 
 
             </div>
