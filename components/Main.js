@@ -70,7 +70,7 @@ function Main({posts}) {
              <div className="mt-10"> {/* Copyright... */}
 
                 <h1 className="flex justify-center ">
-                
+                Copyright ©
                 </h1>
                 <h1 className="flex justify-center ">
                 Ez az oldal legutoljára Időszámításunk előtt 440-ben volt szerkesztve.</h1>
