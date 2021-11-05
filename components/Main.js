@@ -3,9 +3,9 @@ import Image from "next/image"
 function Main({posts}) {
 
     return (
-        <div className=" w-20 p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600  ">
+        <div className=" p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600  ">
             <div className="flex p-2 mt-5"> {/* 1.PICTURE */}
-                <h1 className=" text-3xl lg-max-w-8xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
+                <h1 className=" text-3xl max-w-8xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
                     Az álmom vált valóra de még a munkám történetének elejébe bele se vágtam, már galibába keveredett e szegény város .
                     Királyom Kreón, kinek a fia Haimón volt. Ő Antigoné férje. Neki volt egy testvére Iszméné. 
                     Ott kezdődött a történet, hogy Kreón parancsára Antigoné és Iszméné halott bátyját, Polüneikészt
