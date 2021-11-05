@@ -3,9 +3,9 @@ import Image from "next/image"
 function Main({posts}) {
 
     return (
-        <div className=" p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600  ">
+        <div className="p-5 bg-gradient-to-b from-white via-yellow-400 to-yellow-600 ">
             <div className="flex p-2 mt-5"> {/* 1.PICTURE */}
-                <h1 className=" text-3xl max-w-8xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
+                <h1 className=" text-3xl ">Az én történetem ott kezdődött, hogy megkaptam a karvezető állást Thébain.
                     Az álmom vált valóra de még a munkám történetének elejébe bele se vágtam, már galibába keveredett e szegény város .
                     Királyom Kreón, kinek a fia Haimón volt. Ő Antigoné férje. Neki volt egy testvére Iszméné. 
                     Ott kezdődött a történet, hogy Kreón parancsára Antigoné és Iszméné halott bátyját, Polüneikészt
@@ -18,7 +18,7 @@ function Main({posts}) {
                     
             
                         </h1>
-                <Image  src="/images/1pic.png" className="border-4 border-white" width={3000} height={330} layout="fixed"/>
+                <Image  src="/images/1pic.png"  width={3000} height={330} layout="fixed"/>
 
                      
             </div>
@@ -27,14 +27,14 @@ function Main({posts}) {
 
                 <Image className="" src="/images/2pic.png"   width={3150} height={350} layout="fixed"/>
 
-                <h1 className=" text-3xl lg-max-w-8xl ml-5 "> 
+                <h1 className=" text-3xl  ml-5 "> 
                 A galibát azt hozza, hogy egy őr megtalálja a testet porral beszorva, és ezt elmondja Kreónnak. A királynak elege lesz és 
                 a vének tanácsa is figyelmezteti őt, hogy halandó nem szegülhet ellen az istenek törvényének,
                 de elvakította Kreónt a bosszú. Nagyon félti a hatalmát ahhoz, hogy saját szavát megmásítsa.
                 Elengedi az őrt, hogy megkeresse a tettest. Hamarosan el is kapják Antigónét, aki büszkén vállalja tettét.
                 A király azt sejti, hogy Iszméné is segített neki, ezért őt is meg akarja büntetni. 
                 Antigóné nem ismeri el Kreónt királynak és mondta, hogy istenek törvényei felülírják az embereiket. 
-                A két nővért börtönbe záratja a király, pedog Antigóné Kreón fiának, Haimónnak a menyasszonya.
+                A két nővért börtönbe záratja a király, pedig Antigóné Kreón fiának, Haimónnak a menyasszonya.
                 Én vészjosló dolgokról jövendölök. Mikor Haimón minderről értesül, észérvekkel próbálja meggyőzni apját,
                 de ő nem vonja vissza szavát, mert ez rossz fényben tüntetné fel, mint uralkodó. A nép Antigóné pártját fogja.
                 Kreón elrendeli, hogy éppen csak annyi ételt kapjon Antigóné, ami elég az életbenmaradáshoz.
@@ -45,7 +45,7 @@ function Main({posts}) {
 
             <div className="flex p-2"> {/* 3. PICTURE */}
 
-                <h1 className="text-3xl lg-max-w-8xl">
+                <h1 className="text-3xl ">
                 Iszménét pedig a tanácsomra szabadon engedem. Theiresziász, a vak jövendőmondó szintén figyelmezteti a királyt,
                 hogy ez az utolsó lehetősége, hogy helyrehozza eddigi hibáit. Kreón itt is politikai összeesküvést sejt,
                 és nem ismeri be tévedését.  A jós erre közli, hogy Polüneikész halála miatt 
